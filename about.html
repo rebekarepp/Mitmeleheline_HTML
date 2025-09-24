@@ -1,28 +1,62 @@
 <!DOCTYPE html>
 <html lang="et">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, inital-scale=1.0" >
-    <meta http-equiv="X-UA-conpatible" content="ie-edge" >
-      <script src="https://kit.fontawesome.com/e97d48f24e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css" >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script
+      src="https://kit.fontawesome.com/e97d48f24e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:500px)"
+      href="css/mobile.css"
+    />
     <title>Hotell | Kirjeldus</title>
   </head>
   <body>
     <header>
+      <!--navigatsioon-->
       <nav id="navbar">
         <div class="container">
           <h1><a href="index.html">VOCO</a></h1>
           <ul>
             <li><a href="index.html">Avaleht</a></li>
-            <li><a class="current" href="about.html">Avaleht</a></li>
-            <li><a href="contact.html">Avaleht</a></li>
+            <li><a class="current" href="about.html">Kirjeldus</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
           </ul>
         </div>
       </nav>
     </header>
-
-     <div class="clear"></div>
+    <!--info-->
+    <section id="about-info" class="bg-light py-30">
+      <div class="container">
+        <div class="info-left">
+          <h1>VOCO <span class="text-primary">Kirjeldus</span></h1>
+          <p>VOCO Hotell on loodud spetsiaalselt Tartu Rakendusliku Kolledži õpilastele, et pakkuda kodust ja toetavat keskkonda õpingute ajaks. Hotelli tubades on kõik vajalik näiteks tasuta WiFi, mugavad tööpinnad ja hubane sisustus, et õpilased saaksid keskenduda nii õppimisele kui ka puhkusele. Lisaks pakume ühiseid lounge-ruume, kus saab sõpradega aega veeta, koos õppida või lihtsalt lõõgastuda. VOCO Hotell väärtustab kogukonda ja ühtsust, muutes õpilaste elu lihtsamaks ja mugavamaks.</p>
+        </div>
+        <div class="info-right">
+          <img src="./img/photo-2.jpg" alt="hotell" />
+        </div>
+      </div>
+    </section>
+    <!-- client testimonials-->
+    <section id="testimonials" class="py-30">
+      <div class="container">
+        <h2>Külaliste Arvamused</h2>
+        <div class="testimonial bg-primary">
+          <img src="./img/person-1.jpg" alt="Kati" />
+          <p>VOCO Hotellis elamine on teinud mu koolitee palju lihtsamaks. Hommikul on hea vaid paar minutit jalutada tundi ja kõik on lähedal. Tuba on hubane ja õhtuti saan õppida rahulikult omaette või koos sõpradega ühises ruumis. Kindlasti külastan uuesti ja soovitan sõpradele!</p>
+        </div>
+        <div class="testimonial bg-primary">
+          <img src="./img/person-2.jpg" alt="Kadri" />
+          <p>Mulle meeldib, et hotellis on jõusaal ja et toit on soodsa hinnaga. See teeb elu palju mugavamaks. Tunnen, et siin on arvestatud just õpilaste vajadustega. Hotelli personal on sõbralik ja alati abivalmis, mis teeb siin viibimise veelgi meeldivamaks. Väga hea koht elamiseks VOCO kõrval. Soovitan külastada!</p>
+        </div>
+      </div>
+    </section>
+    <div class="clear"></div>
     <footer>
       <p>VOCO &copy;2021, Kõik Õigused On Kaitstud</p>
     </footer>
